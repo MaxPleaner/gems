@@ -6,4 +6,4 @@ It uses the gem named `gems` and gets the info by calling `Gems.latest`. It prin
 
 To install, run `gem install gems awesome_print`, copy the script to /usr/bin/, and run `chmod +x` on the file. 
 
-To get more information on a particuilar gem (such as author or homepage), run `gem search <gem_name> --details`
+To get more information on a particuilar gem (such as author or homepage), run `gem search SomeGem --details`
