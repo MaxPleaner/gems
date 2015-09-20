@@ -1,10 +1,6 @@
-#!/usr/bin/ruby
-
 require 'gems'
 require 'awesome_print'
 
-gems =  Gems.latest.map do |gem|
+ap Gems.latest.map do |gem|
      "name: #{gem["name"]} \n info: #{gem["info"]}"
 end
-
-ap gems
